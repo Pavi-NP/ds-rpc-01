@@ -4,6 +4,13 @@ version = "0.1.0"
 description = "Starter project for the RPC-01: Internal Chatbot with Role Based Access Control"
 readme = "README.md"
 requires-python = ">=3.10"
+
 dependencies = [
     "fastapi[standard]>=0.115.12",
+    "uvicorn",
+    "langchain",
+    "openai",
+    "pydantic",
+    "python-dotenv",
+    "chroma-client"
 ]
