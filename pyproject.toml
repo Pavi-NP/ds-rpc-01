@@ -1,47 +1,12 @@
-# ds-rpc-01/pyproject.toml
-
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [project]
-# --- Your project details ---
 name = "ds-rpc-01"
 version = "0.1.0"
 description = "Starter project for the RPC-01: Internal Chatbot with Role Based Access Control"
 readme = "README.md"
 requires-python = ">=3.10"
-authors = [
-  { name="Peter Pandey & Team", email="peter@example-fintech.com" },
-]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Framework :: FastAPI",
-    "Topic :: Scientific/Engineering :: Artificial Intelligence",
-    "Private :: Do Not Upload",
-]
-
-# --- Complete list of dependencies for full functionality ---
 dependencies = [
-    # Web Framework & Server (as you had, but with jinja2)
-    "fastapi[standard]>=0.115.0", # Using a slightly more general version
-    "jinja2",
-
-    # RAG & NLP Core
-    "langchain",
-    "langchain-openai",
-    "langchain-community",
-    "sentence-transformers",
-    "faiss-cpu",
-    "unstructured[md,csv]",
-    "lark",
-
-    # Utilities
-    "python-dotenv",
+    "fastapi[standard]>=0.115.12",
 ]
 
-[project.urls]
-"Homepage" = "https://example-fintech.com/assistant"
-"Bug Tracker" = "https://example-fintech.com/issues"
+[tool.poetry.scripts]
+ds-rpc-01 = "main:app"
