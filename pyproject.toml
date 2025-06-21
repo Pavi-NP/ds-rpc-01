@@ -7,3 +7,6 @@ requires-python = ">=3.10"
 dependencies = [
     "fastapi[standard]>=0.115.12",
 ]
+
+[tool.poetry.scripts]
+ds-rpc-01 = "main:app"
