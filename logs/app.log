@@ -1,0 +1,1222 @@
+2025-06-11 23:23:42,382 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-11 23:23:42,382 - app.main - ERROR - ❌ Failed to initialize RAG service: 'RAGService' object has no attribute 'initialize'
+2025-06-11 23:23:42,384 - app.main - INFO - 🛑 Shutting down application
+2025-06-11 23:29:22,478 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-11 23:29:22,478 - app.main - ERROR - ❌ Failed to initialize RAG service: 'RAGService' object has no attribute 'initialize'
+2025-06-11 23:29:27,305 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:29:57,343 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:30:27,334 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:30:57,353 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:31:24,168 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:31:27,305 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:31:57,315 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:32:27,312 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:32:57,326 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:33:27,791 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:33:58,787 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:34:29,801 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:35:00,472 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:35:30,463 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:36:00,478 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:36:30,781 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:37:01,777 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:37:32,791 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:38:02,780 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:38:34,396 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:39:18,186 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:39:25,470 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:40:45,583 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:42:15,193 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:43:03,913 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:47:20,330 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:48:51,397 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:48:56,222 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:51:34,553 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:52:04,571 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:52:37,369 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-11 23:53:47,472 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-11 23:53:47,473 - app.main - ERROR - ❌ Failed to initialize RAG service: 'RAGService' object has no attribute 'initialize'
+2025-06-12 00:04:51,533 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-12 00:05:27,171 - app.main - ERROR - Health check failed: 'RAGService' object has no attribute 'health_check'
+2025-06-12 00:27:37,801 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-12 00:27:37,801 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-12 00:27:37,916 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-12 00:27:37,916 - app.services.document_loader - INFO - Loading documents for general
+2025-06-12 00:27:37,916 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-12 00:27:37,916 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-12 00:27:37,916 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-12 00:27:37,925 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-12 00:27:37,925 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-12 00:27:37,925 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-12 00:27:37,925 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-12 00:27:37,925 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-12 00:27:37,926 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-12 00:27:37,927 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-12 00:27:37,927 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-12 00:27:37,927 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-12 00:27:40,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 00:27:40,997 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 00:27:41,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 00:27:41,288 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 00:27:41,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 00:27:41,606 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 00:27:42,004 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 00:27:42,005 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 00:27:42,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 00:27:42,266 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 00:27:42,267 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-12 00:27:42,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 00:27:42,672 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 00:27:42,673 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-12 00:27:42,674 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-12 00:27:42,674 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-12 00:36:43,262 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-12 15:05:56,822 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-12 15:05:56,822 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-12 15:05:56,956 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-12 15:05:56,957 - app.services.document_loader - INFO - Loading documents for general
+2025-06-12 15:05:56,957 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-12 15:05:56,957 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-12 15:05:56,957 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-12 15:05:56,965 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-12 15:05:56,965 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-12 15:05:56,965 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-12 15:05:56,965 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-12 15:05:56,965 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-12 15:05:56,966 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-12 15:05:56,967 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-12 15:05:56,967 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-12 15:05:56,967 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-12 15:05:57,702 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 15:05:57,706 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 15:05:58,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 15:05:58,014 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 15:05:58,319 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 15:05:58,321 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 15:05:58,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 15:05:58,615 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 15:05:58,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 15:05:58,872 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 15:05:58,872 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-12 15:05:59,246 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-12 15:05:59,247 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-12 15:05:59,248 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-12 15:05:59,248 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-12 15:05:59,248 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 10:12:57,380 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 10:12:57,382 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 10:12:57,485 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 10:12:57,485 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 10:12:57,486 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 10:12:57,486 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 10:12:57,486 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 10:12:57,495 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 10:12:57,495 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 10:12:57,495 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 10:12:57,496 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 10:12:57,496 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 10:12:57,496 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 10:12:57,496 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 10:12:57,496 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 10:12:57,496 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 10:12:57,496 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 10:12:57,497 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 10:12:57,497 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 10:12:57,497 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 10:12:57,497 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 10:12:57,497 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 10:12:57,497 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 10:12:57,497 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 10:12:58,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:12:58,149 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:12:58,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:12:58,410 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:12:59,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:12:59,373 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:12:59,714 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:12:59,715 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:13:00,018 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:13:00,019 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:13:00,020 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 10:13:00,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:13:00,478 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:13:00,479 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 10:13:00,479 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 10:13:00,479 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 10:13:09,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:30:29,663 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:47:49,721 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:56:11,878 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 10:56:11,878 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 10:56:11,975 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 10:56:11,975 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 10:56:11,976 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 10:56:11,976 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 10:56:11,976 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 10:56:11,986 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 10:56:11,986 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 10:56:11,987 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 10:56:11,987 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 10:56:11,987 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 10:56:11,987 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 10:56:11,987 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 10:56:11,988 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 10:56:11,988 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 10:56:12,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:56:12,530 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:56:12,877 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:56:12,878 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:56:13,168 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:56:13,169 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:56:13,525 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:56:13,527 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:56:13,814 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:56:13,815 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:56:13,816 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 10:56:14,208 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:56:14,211 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:56:14,212 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 10:56:14,212 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 10:56:14,212 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 10:56:19,626 - app.main - ERROR - Unexpected error: Encountered unknown tag 'comment'.
+Traceback (most recent call last):
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/middleware/trustedhost.py", line 51, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/middleware/cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/Documents/Pavi/GitHub/ds-rpc-02/app/main.py", line 228, in serve_index
+    response = templates.TemplateResponse("index.html", {"request": request})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/templating.py", line 229, in TemplateResponse
+    template = self.get_template(name)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/templating.py", line 143, in get_template
+    return self.env.get_template(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "templates/index.html", line 609, in template
+    {% comment %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+2025-06-13 10:58:55,318 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 10:58:55,318 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 10:58:55,431 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 10:58:55,431 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 10:58:55,431 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 10:58:55,432 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 10:58:55,432 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 10:58:55,438 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 10:58:55,438 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 10:58:55,439 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 10:58:55,439 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 10:58:55,439 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 10:58:55,439 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 10:58:55,439 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 10:58:55,440 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 10:58:55,440 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 10:58:55,440 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 10:58:55,440 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 10:58:55,440 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 10:58:55,440 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 10:58:55,440 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 10:58:55,440 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 10:58:55,441 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 10:58:55,441 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 10:58:56,046 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:58:56,048 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:58:56,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:58:56,295 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:58:56,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:58:56,549 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:58:56,804 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:58:56,804 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:58:57,118 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:58:57,120 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:58:57,120 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 10:58:57,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 10:58:57,472 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 10:58:57,473 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 10:58:57,473 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 10:58:57,473 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 11:01:05,532 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 11:01:05,532 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 11:01:05,628 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 11:01:05,628 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 11:01:05,628 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 11:01:05,629 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 11:01:05,629 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 11:01:05,636 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 11:01:05,636 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 11:01:05,636 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 11:01:05,636 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 11:01:05,636 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 11:01:05,637 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 11:01:05,638 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 11:01:05,638 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 11:01:05,638 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 11:01:06,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:01:06,198 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:01:06,662 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:01:06,663 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:01:06,948 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:01:06,950 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:01:07,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:01:07,177 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:01:07,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:01:07,427 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:01:07,427 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 11:01:07,891 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:01:07,892 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:01:07,893 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 11:01:07,893 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 11:01:07,893 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 11:01:18,328 - app.main - ERROR - Unexpected error: Encountered unknown tag 'comment'.
+Traceback (most recent call last):
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/middleware/trustedhost.py", line 51, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/middleware/cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/Documents/Pavi/GitHub/ds-rpc-02/app/main.py", line 228, in serve_index
+    response = templates.TemplateResponse("index.html", {"request": request})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/templating.py", line 229, in TemplateResponse
+    template = self.get_template(name)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/starlette/templating.py", line 143, in get_template
+    return self.env.get_template(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/paviprathiraja/anaconda3/lib/python3.11/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "templates/index.html", line 609, in template
+    {% comment %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+2025-06-13 11:03:01,366 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 11:03:01,366 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 11:03:01,453 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 11:03:01,454 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 11:03:01,454 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 11:03:01,454 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 11:03:01,454 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 11:03:01,461 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 11:03:01,461 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 11:03:01,461 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 11:03:01,461 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 11:03:01,462 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 11:03:01,463 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 11:03:01,463 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 11:03:01,463 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 11:03:01,968 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:03:01,972 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:03:02,268 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:03:02,270 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:03:02,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:03:02,551 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:03:02,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:03:02,821 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:03:03,080 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:03:03,080 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:03:03,080 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 11:03:03,440 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 11:03:03,441 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 11:03:03,442 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 11:03:03,443 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 11:03:03,443 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 11:05:09,657 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 12:18:55,085 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 13:58:35,239 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 15:37:56,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 17:29:48,469 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 19:10:45,246 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 19:45:17,311 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 21:15:09,924 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 22:11:55,488 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:24:24,184 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 23:24:24,184 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 23:24:24,303 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 23:24:24,303 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 23:24:24,304 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 23:24:24,304 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 23:24:24,304 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 23:24:24,315 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 23:24:24,315 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 23:24:24,315 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 23:24:24,316 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 23:24:24,316 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 23:24:24,316 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 23:24:24,316 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 23:24:24,316 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 23:24:24,316 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 23:24:24,316 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 23:24:24,317 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 23:24:24,317 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 23:24:24,317 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 23:24:24,317 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 23:24:24,317 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 23:24:24,317 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 23:24:24,317 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 23:24:24,897 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:24:24,899 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:24:25,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:24:25,190 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:24:25,473 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:24:25,475 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:24:25,797 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:24:25,798 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:24:26,203 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:24:26,205 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:24:26,205 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 23:24:26,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:24:26,569 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:24:26,569 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 23:24:26,570 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 23:24:26,570 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 23:32:51,650 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 23:32:51,650 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 23:32:51,742 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 23:32:51,742 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 23:32:51,743 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 23:32:51,743 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 23:32:51,743 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 23:32:51,750 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 23:32:51,750 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 23:32:51,750 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 23:32:51,750 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 23:32:51,751 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 23:32:51,752 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 23:32:51,752 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 23:32:51,752 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 23:32:52,338 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:32:52,340 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:32:52,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:32:52,724 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:32:52,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:32:52,978 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:32:53,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:32:53,247 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:32:53,485 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:32:53,486 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:32:53,487 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 23:32:53,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:32:53,862 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:32:53,863 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 23:32:53,863 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 23:32:53,864 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 23:36:45,271 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 23:36:45,271 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 23:36:45,369 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 23:36:45,369 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 23:36:45,369 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 23:36:45,370 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 23:36:45,370 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 23:36:45,377 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 23:36:45,377 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 23:36:45,377 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 23:36:45,377 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 23:36:45,377 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 23:36:45,378 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 23:36:45,379 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 23:36:45,379 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 23:36:45,379 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 23:36:45,901 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:36:45,903 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:36:46,159 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:36:46,160 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:36:46,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:36:46,462 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:36:46,735 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:36:46,737 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:36:47,037 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:36:47,038 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:36:47,039 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 23:36:47,487 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:36:47,489 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:36:47,489 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 23:36:47,490 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 23:36:47,490 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-13 23:43:01,294 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-13 23:43:01,294 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-13 23:43:01,397 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-13 23:43:01,397 - app.services.document_loader - INFO - Loading documents for general
+2025-06-13 23:43:01,397 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-13 23:43:01,398 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-13 23:43:01,398 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-13 23:43:01,405 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-13 23:43:01,405 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-13 23:43:01,405 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-13 23:43:01,405 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-13 23:43:01,405 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-13 23:43:01,405 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-13 23:43:01,405 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-13 23:43:01,406 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-13 23:43:01,407 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-13 23:43:02,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:43:02,075 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:43:02,337 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:43:02,338 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:43:02,629 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:43:02,631 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:43:02,882 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:43:02,884 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:43:03,184 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:43:03,186 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:43:03,186 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-13 23:43:03,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-13 23:43:03,607 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-13 23:43:03,607 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-13 23:43:03,608 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-13 23:43:03,608 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-14 00:01:19,627 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-14 00:01:19,627 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-14 00:01:19,718 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-14 00:01:19,719 - app.services.document_loader - INFO - Loading documents for general
+2025-06-14 00:01:19,719 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-14 00:01:19,719 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-14 00:01:19,719 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-14 00:01:19,726 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-14 00:01:19,727 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-14 00:01:19,727 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-14 00:01:19,727 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-14 00:01:19,727 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-14 00:01:19,727 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-14 00:01:19,727 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-14 00:01:19,728 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-14 00:01:19,728 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-14 00:01:20,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:01:20,270 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:01:20,563 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:01:20,564 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:01:20,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:01:20,838 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:01:21,142 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:01:21,143 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:01:21,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:01:21,400 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:01:21,400 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-14 00:01:21,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:01:21,713 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:01:21,714 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-14 00:01:21,714 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-14 00:01:21,715 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-14 00:22:17,275 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-14 00:22:17,276 - app.services.rag_service - INFO - Initializing Optimized RAG service...
+2025-06-14 00:22:17,371 - app.services.rag_service - ERROR - Failed to initialize RAG service: DocumentLoader.__init__() got an unexpected keyword argument 'text_splitter'
+2025-06-14 00:22:17,372 - app.main - ERROR - ❌ Failed to initialize RAG service: DocumentLoader.__init__() got an unexpected keyword argument 'text_splitter'
+2025-06-14 00:27:38,655 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-14 00:27:38,656 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-14 00:27:38,747 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-14 00:27:38,747 - app.services.document_loader - INFO - Loading documents for general
+2025-06-14 00:27:38,748 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-14 00:27:38,748 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-14 00:27:38,748 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-14 00:27:38,759 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-14 00:27:38,759 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-14 00:27:38,759 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-14 00:27:38,759 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-14 00:27:38,759 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-14 00:27:38,759 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-14 00:27:38,759 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-14 00:27:38,760 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-14 00:27:38,760 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-14 00:27:39,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:27:39,306 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:27:39,566 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:27:39,568 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:27:40,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:27:40,239 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:27:40,510 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:27:40,511 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:27:40,809 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:27:40,809 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:27:40,810 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-14 00:27:41,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-14 00:27:41,280 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-14 00:27:41,283 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-14 00:27:41,283 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-14 00:27:41,283 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-15 00:38:29,127 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-15 00:38:29,128 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-15 00:38:29,268 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-15 00:38:29,268 - app.services.document_loader - INFO - Loading documents for general
+2025-06-15 00:38:29,269 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-15 00:38:29,269 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-15 00:38:29,269 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-15 00:38:29,278 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-15 00:38:29,278 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-15 00:38:29,278 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-15 00:38:29,278 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-15 00:38:29,279 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-15 00:38:29,280 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-15 00:38:29,280 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-15 00:38:29,280 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-15 00:38:29,280 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-15 00:38:30,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 00:38:30,017 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 00:38:30,422 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 00:38:30,423 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 00:38:30,774 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 00:38:30,775 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 00:38:31,068 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 00:38:31,069 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 00:38:31,397 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 00:38:31,398 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 00:38:31,398 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-15 00:38:31,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 00:38:31,718 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 00:38:31,719 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-15 00:38:31,719 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-15 00:38:31,719 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-15 01:12:09,264 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-15 01:12:09,265 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-15 01:12:09,361 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-15 01:12:09,362 - app.services.document_loader - INFO - Loading documents for general
+2025-06-15 01:12:09,362 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-15 01:12:09,362 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-15 01:12:09,362 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-15 01:12:09,371 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-15 01:12:09,371 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-15 01:12:09,371 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-15 01:12:09,371 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-15 01:12:09,372 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-15 01:12:09,373 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-15 01:12:09,373 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-15 01:12:09,373 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-15 01:12:09,945 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:12:09,946 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:12:10,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:12:10,356 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:12:10,667 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:12:10,668 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:12:10,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:12:10,940 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:12:11,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:12:11,249 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:12:11,249 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-15 01:12:11,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:12:11,570 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:12:11,571 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-15 01:12:11,571 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-15 01:12:11,571 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-15 01:24:27,058 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-15 01:24:27,059 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-15 01:24:27,151 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-15 01:24:27,151 - app.services.document_loader - INFO - Loading documents for general
+2025-06-15 01:24:27,151 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-15 01:24:27,151 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-15 01:24:27,151 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-15 01:24:27,159 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-15 01:24:27,159 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-15 01:24:27,159 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-15 01:24:27,159 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-15 01:24:27,160 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-15 01:24:27,161 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-15 01:24:27,161 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-15 01:24:27,161 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-15 01:24:27,669 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:24:27,671 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:24:27,944 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:24:27,945 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:24:28,318 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:24:28,320 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:24:28,556 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:24:28,558 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:24:28,809 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:24:28,811 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:24:28,811 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-15 01:24:29,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:24:29,187 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:24:29,188 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-15 01:24:29,188 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-15 01:24:29,188 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-15 01:25:35,176 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-15 01:25:35,176 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-15 01:25:35,296 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-15 01:25:35,296 - app.services.document_loader - INFO - Loading documents for general
+2025-06-15 01:25:35,298 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-15 01:25:35,298 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-15 01:25:35,298 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-15 01:25:35,306 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-15 01:25:35,306 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-15 01:25:35,306 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-15 01:25:35,306 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-15 01:25:35,306 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-15 01:25:35,307 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-15 01:25:35,308 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-15 01:25:35,308 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-15 01:25:35,308 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-15 01:25:35,797 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:25:35,798 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:25:36,156 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:25:36,158 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:25:36,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:25:36,389 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:25:36,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:25:36,620 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:25:36,846 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:25:36,848 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:25:36,848 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-15 01:25:37,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:25:37,285 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:25:37,286 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-15 01:25:37,286 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-15 01:25:37,286 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-15 01:38:51,906 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-15 01:38:51,906 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-15 01:38:51,997 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-15 01:38:51,997 - app.services.document_loader - INFO - Loading documents for general
+2025-06-15 01:38:51,997 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-15 01:38:51,997 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-15 01:38:51,997 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-15 01:38:52,005 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-15 01:38:52,005 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-15 01:38:52,005 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-15 01:38:52,005 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-15 01:38:52,005 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-15 01:38:52,006 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-15 01:38:52,007 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-15 01:38:52,007 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-15 01:38:52,007 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-15 01:38:52,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:38:52,523 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:38:52,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:38:52,783 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:38:53,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:38:53,083 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:38:53,290 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:38:53,291 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:38:53,575 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:38:53,576 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:38:53,577 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-15 01:38:54,009 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:38:54,010 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:38:54,011 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-15 01:38:54,011 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-15 01:38:54,011 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-15 01:41:56,046 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-15 01:41:56,047 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-15 01:41:56,140 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-15 01:41:56,140 - app.services.document_loader - INFO - Loading documents for general
+2025-06-15 01:41:56,140 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-15 01:41:56,140 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-15 01:41:56,140 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-15 01:41:56,150 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-15 01:41:56,150 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-15 01:41:56,150 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-15 01:41:56,150 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-15 01:41:56,151 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-15 01:41:56,152 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-15 01:41:56,152 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-15 01:41:56,152 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-15 01:41:56,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:41:56,706 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:41:56,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:41:56,967 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:41:57,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:41:57,235 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:41:57,581 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:41:57,582 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:41:57,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:41:57,813 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:41:57,813 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-15 01:41:58,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 01:41:58,521 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 01:41:58,522 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-15 01:41:58,523 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-15 01:41:58,523 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-15 18:12:06,056 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-15 18:12:06,056 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-15 18:12:06,157 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-15 18:12:06,157 - app.services.document_loader - INFO - Loading documents for general
+2025-06-15 18:12:06,158 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-15 18:12:06,158 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-15 18:12:06,158 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-15 18:12:06,168 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-15 18:12:06,168 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-15 18:12:06,168 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-15 18:12:06,169 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-15 18:12:06,170 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-15 18:12:06,170 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-15 18:12:06,170 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-15 18:12:06,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 18:12:06,811 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 18:12:07,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 18:12:07,112 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 18:12:07,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 18:12:07,400 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 18:12:07,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 18:12:07,727 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 18:12:08,005 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 18:12:08,007 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 18:12:08,008 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-15 18:12:08,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 18:12:08,330 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 18:12:08,331 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-15 18:12:08,331 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-15 18:12:08,332 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-15 20:16:43,425 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-15 20:16:43,425 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-15 20:16:43,535 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-15 20:16:43,535 - app.services.document_loader - INFO - Loading documents for general
+2025-06-15 20:16:43,536 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-15 20:16:43,536 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-15 20:16:43,536 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-15 20:16:43,547 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-15 20:16:43,547 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-15 20:16:43,547 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-15 20:16:43,547 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-15 20:16:43,547 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-15 20:16:43,548 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-15 20:16:43,549 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-15 20:16:43,549 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-15 20:16:43,549 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-15 20:16:44,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 20:16:44,149 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 20:16:44,516 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 20:16:44,517 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 20:16:44,799 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 20:16:44,800 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 20:16:45,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 20:16:45,113 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 20:16:45,418 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 20:16:45,418 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 20:16:45,418 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-15 20:16:45,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-15 20:16:45,769 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-15 20:16:45,770 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-15 20:16:45,770 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-15 20:16:45,770 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-16 09:42:27,797 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-16 09:42:27,798 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-16 09:42:27,901 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-16 09:42:27,901 - app.services.document_loader - INFO - Loading documents for general
+2025-06-16 09:42:27,902 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-16 09:42:27,902 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-16 09:42:27,902 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-16 09:42:27,913 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-16 09:42:27,913 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-16 09:42:27,913 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-16 09:42:27,914 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-16 09:42:27,914 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-16 09:42:27,914 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-16 09:42:27,914 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-16 09:42:27,914 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-16 09:42:27,914 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-16 09:42:27,914 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-16 09:42:27,915 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-16 09:42:27,915 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-16 09:42:27,915 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-16 09:42:27,915 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-16 09:42:27,915 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-16 09:42:27,915 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-16 09:42:27,915 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-16 09:42:30,866 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:42:30,868 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:42:31,174 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:42:31,175 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:42:31,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:42:31,586 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:42:31,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:42:31,864 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:42:32,199 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:42:32,201 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:42:32,201 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-16 09:42:32,537 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:42:32,538 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:42:32,539 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-16 09:42:32,539 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-16 09:42:32,539 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-16 09:46:59,360 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-16 09:46:59,366 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-16 09:46:59,460 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-16 09:46:59,461 - app.services.document_loader - INFO - Loading documents for general
+2025-06-16 09:46:59,461 - app.services.document_loader - INFO - Loaded employee_handbook.md: 18 chunks
+2025-06-16 09:46:59,461 - app.services.document_loader - INFO - Loaded 18 chunks for general
+2025-06-16 09:46:59,461 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-16 09:46:59,469 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-16 09:46:59,469 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-16 09:46:59,469 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-16 09:46:59,469 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 10 chunks
+2025-06-16 09:46:59,469 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 8 chunks
+2025-06-16 09:46:59,469 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 9 chunks
+2025-06-16 09:46:59,469 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 8 chunks
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 8 chunks
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loaded 43 chunks for marketing
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 15 chunks
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loaded financial_summary.md: 10 chunks
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loaded 25 chunks for finance
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 38 chunks
+2025-06-16 09:46:59,470 - app.services.document_loader - INFO - Loaded 38 chunks for engineering
+2025-06-16 09:46:59,470 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-16 09:46:59,979 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:46:59,982 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:47:00,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:47:00,286 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:47:00,540 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:47:00,542 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:47:00,844 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:47:00,846 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:47:01,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:47:01,153 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:47:01,154 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-16 09:47:01,487 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 09:47:01,488 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 09:47:01,490 - app.services.rag_service - INFO - Processed 126 total document chunks
+2025-06-16 09:47:01,490 - app.services.rag_service - INFO - RAG service initialized successfully
+2025-06-16 09:47:01,490 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-16 11:43:56,726 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-16 11:43:56,727 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-16 11:43:56,829 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-16 11:43:56,829 - app.services.document_loader - INFO - Loading documents for general
+2025-06-16 11:43:56,830 - app.services.document_loader - INFO - Loaded employee_handbook.md: 66 chunks
+2025-06-16 11:43:56,830 - app.services.document_loader - INFO - Loaded 66 chunks for general
+2025-06-16 11:43:56,830 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-16 11:43:56,839 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-16 11:43:56,839 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-16 11:43:56,839 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-16 11:43:56,840 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 37 chunks
+2025-06-16 11:43:56,840 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 30 chunks
+2025-06-16 11:43:56,840 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 36 chunks
+2025-06-16 11:43:56,841 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 33 chunks
+2025-06-16 11:43:56,841 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 34 chunks
+2025-06-16 11:43:56,841 - app.services.document_loader - INFO - Loaded 170 chunks for marketing
+2025-06-16 11:43:56,841 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-16 11:43:56,842 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 64 chunks
+2025-06-16 11:43:56,842 - app.services.document_loader - INFO - Loaded financial_summary.md: 39 chunks
+2025-06-16 11:43:56,843 - app.services.document_loader - INFO - Loaded 103 chunks for finance
+2025-06-16 11:43:56,843 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-16 11:43:56,843 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 154 chunks
+2025-06-16 11:43:56,843 - app.services.document_loader - INFO - Loaded 154 chunks for engineering
+2025-06-16 11:43:56,843 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-16 11:43:57,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 11:43:57,405 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 11:43:57,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 11:43:57,724 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 11:43:58,079 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 11:43:58,082 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 11:43:58,383 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 11:43:58,384 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 11:43:58,627 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 11:43:58,629 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 11:43:58,629 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-16 11:43:58,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 11:43:58,960 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 11:43:58,961 - app.services.rag_service - INFO - Processed 495 total document chunks.
+2025-06-16 11:43:58,961 - app.services.rag_service - INFO - RAG service initialized successfully.
+2025-06-16 11:43:58,961 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-16 12:13:06,387 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-16 12:13:06,388 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-16 12:13:06,487 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-16 12:13:06,487 - app.services.document_loader - INFO - Loading documents for general
+2025-06-16 12:13:06,488 - app.services.document_loader - INFO - Loaded employee_handbook.md: 66 chunks
+2025-06-16 12:13:06,488 - app.services.document_loader - INFO - Loaded 66 chunks for general
+2025-06-16 12:13:06,488 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-16 12:13:06,497 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-16 12:13:06,497 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-16 12:13:06,497 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-16 12:13:06,498 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 37 chunks
+2025-06-16 12:13:06,498 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 30 chunks
+2025-06-16 12:13:06,499 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 36 chunks
+2025-06-16 12:13:06,499 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 33 chunks
+2025-06-16 12:13:06,499 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 34 chunks
+2025-06-16 12:13:06,499 - app.services.document_loader - INFO - Loaded 170 chunks for marketing
+2025-06-16 12:13:06,499 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-16 12:13:06,501 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 64 chunks
+2025-06-16 12:13:06,501 - app.services.document_loader - INFO - Loaded financial_summary.md: 39 chunks
+2025-06-16 12:13:06,501 - app.services.document_loader - INFO - Loaded 103 chunks for finance
+2025-06-16 12:13:06,501 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-16 12:13:06,502 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 154 chunks
+2025-06-16 12:13:06,502 - app.services.document_loader - INFO - Loaded 154 chunks for engineering
+2025-06-16 12:13:06,502 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-16 12:13:07,112 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:13:07,114 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:13:07,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:13:07,362 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:13:07,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:13:07,634 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:13:07,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:13:07,907 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:13:08,304 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:13:08,305 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:13:08,305 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-16 12:13:08,683 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:13:08,683 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:13:08,684 - app.services.rag_service - INFO - Processed 495 total document chunks.
+2025-06-16 12:13:08,684 - app.services.rag_service - INFO - RAG service initialized successfully.
+2025-06-16 12:13:08,684 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-16 12:40:01,791 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-16 12:40:01,792 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-16 12:40:01,806 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-16 12:40:01,807 - app.services.document_loader - INFO - Loading documents for general
+2025-06-16 12:40:01,808 - app.services.document_loader - INFO - Loaded employee_handbook.md: 66 chunks
+2025-06-16 12:40:01,808 - app.services.document_loader - INFO - Loaded 66 chunks for general
+2025-06-16 12:40:01,808 - app.services.document_loader - INFO - Loading documents for hr
+2025-06-16 12:40:01,817 - app.services.document_loader - INFO - Loaded hr_data.csv: 2 chunks
+2025-06-16 12:40:01,817 - app.services.document_loader - INFO - Loaded 2 chunks for hr
+2025-06-16 12:40:01,817 - app.services.document_loader - INFO - Loading documents for marketing
+2025-06-16 12:40:01,818 - app.services.document_loader - INFO - Loaded marketing_report_2024.md: 37 chunks
+2025-06-16 12:40:01,818 - app.services.document_loader - INFO - Loaded marketing_report_q1_2024.md: 30 chunks
+2025-06-16 12:40:01,819 - app.services.document_loader - INFO - Loaded market_report_q4_2024.md: 36 chunks
+2025-06-16 12:40:01,819 - app.services.document_loader - INFO - Loaded marketing_report_q2_2024.md: 33 chunks
+2025-06-16 12:40:01,819 - app.services.document_loader - INFO - Loaded marketing_report_q3_2024.md: 34 chunks
+2025-06-16 12:40:01,819 - app.services.document_loader - INFO - Loaded 170 chunks for marketing
+2025-06-16 12:40:01,819 - app.services.document_loader - INFO - Loading documents for finance
+2025-06-16 12:40:01,820 - app.services.document_loader - INFO - Loaded quarterly_financial_report.md: 64 chunks
+2025-06-16 12:40:01,820 - app.services.document_loader - INFO - Loaded financial_summary.md: 39 chunks
+2025-06-16 12:40:01,820 - app.services.document_loader - INFO - Loaded 103 chunks for finance
+2025-06-16 12:40:01,820 - app.services.document_loader - INFO - Loading documents for engineering
+2025-06-16 12:40:01,821 - app.services.document_loader - INFO - Loaded engineering_master_doc.md: 154 chunks
+2025-06-16 12:40:01,821 - app.services.document_loader - INFO - Loaded 154 chunks for engineering
+2025-06-16 12:40:01,821 - app.services.vector_store - INFO - Creating department-specific vector stores...
+2025-06-16 12:40:02,443 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:40:02,445 - app.services.vector_store - ERROR - Error creating vector store for general: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:40:02,951 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:40:02,952 - app.services.vector_store - ERROR - Error creating vector store for hr: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:40:03,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:40:03,206 - app.services.vector_store - ERROR - Error creating vector store for marketing: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:40:03,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:40:03,521 - app.services.vector_store - ERROR - Error creating vector store for finance: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:40:03,842 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:40:03,844 - app.services.vector_store - ERROR - Error creating vector store for engineering: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:40:03,844 - app.services.vector_store - INFO - Creating global vector store...
+2025-06-16 12:40:04,133 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-16 12:40:04,134 - app.services.vector_store - ERROR - Error creating global vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Ri8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-06-16 12:40:04,134 - app.services.rag_service - INFO - Processed 495 total document chunks.
+2025-06-16 12:40:04,135 - app.services.rag_service - INFO - RAG service initialized successfully.
+2025-06-16 12:40:04,135 - app.main - INFO - ✅ RAG service initialized successfully
+2025-06-16 21:14:58,244 - app.main - INFO - 🚀 Starting Peter Pandey's RAG-based RBAC Chatbot
+2025-06-16 21:14:58,244 - app.services.rag_service - INFO - Initializing RAG service...
+2025-06-16 21:14:58,258 - app.services.rag_service - INFO - Loading documents from resources folder...
+2025-06-16 21:14:58,258 - app.services.rag_service - ERROR - Failed to initialize RAG service: [Errno 2] No such file or directory: '../../resources/data'
+2025-06-16 21:14:58,258 - app.main - ERROR - ❌ Failed to initialize RAG service: [Errno 2] No such file or directory: '../../resources/data'
