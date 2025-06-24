@@ -1,117 +1,884 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fintech RAG Assistant</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peter Pandey's RAG Assistant - Role-Based Access Control</title>
+    
+    <!-- Tailwind CSS CDN for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Markdown library for rendering markdown responses -->
     <script src="https://unpkg.com/marked/marked.min.js"></script>
+    
+    <!-- Tailwind config for custom theme extension -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#5D5CDE',
+                        primaryDark: '#4A49C4',
+                    }
+                }
+            }
+        }
+        
+        // Detect system dark mode preference and apply class
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        
+        // Listen for changes in system preference
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+    </script>
+    
+    <!-- Custom CSS styles for UI components -->
+    <style>
+        /* Source Reference Style */
+        .source-ref {
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+            border-left: 4px solid #5D5CDE;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 4px 0;
+        }
+        /* Dark Mode for Source Reference */
+        .dark .source-ref {
+            background: linear-gradient(135deg, #374151 0%, #4b5563 100%);
+            border-left-color: #5D5CDE;
+        }
+        
+        /* Status Pulse Animation */
+        .status-indicator {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        /* Fade-in Animation for messages */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Message Bubble Styles */
+        .message-bubble {
+            padding: 12px 16px;
+            border-radius: 12px;
+            margin: 8px 0;
+        }
+        /* User Message Style */
+        .message-bubble.user {
+            background: linear-gradient(135deg, #5D5CDE 0%, #4A49C4 100%);
+            color: white;
+        }
+        /* Bot Message Style */
+        .message-bubble.bot {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+        }
+        /* Dark Mode for Bot Messages */
+        .dark .message-bubble.bot {
+            background: #374151;
+            border-color: #4b5563;
+            color: #f9fafb;
+        }
+        
+        /* Typing Indicator Dots */
+        .typing-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #6b7280;
+            animation: typing 1.4s infinite;
+        }
+        /* Delay for dots to animate sequentially */
+        .typing-indicator:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        .typing-indicator:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-10px); }
+        }
+        
+        /* Spinner for loading states */
+        .loading-spinner {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #ffffff33;
+            border-top: 2px solid #ffffff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Quick Query Button Hover Effect */
+        .quick-query-btn:hover {
+            transform: translateX(4px);
+        }
+        
+        /* Permission Tag Styles */
+        .permission-tag {
+            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+            color: #3730a3;
+        }
+        /* Dark Mode for Permission Tag */
+        .dark .permission-tag {
+            background: linear-gradient(135deg, #3730a3 0%, #4c1d95 100%);
+            color: #e0e7ff;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans transition-colors duration-300">
-
-    <!-- Login Screen -->
-    <div id="loginScreen" class="min-h-screen flex items-center justify-center p-4 bg-gray-100 dark:bg-gray-900">
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+    
+    <!-- ========================= Login Screen ========================= -->
+    <div id="loginScreen" class="min-h-screen flex items-center justify-center p-4">
         <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-md p-8 border border-gray-200 dark:border-gray-700">
+            <!-- Logo & Title -->
             <div class="text-center mb-8">
-                <div class="w-16 h-16 bg-indigo-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A9 9 0 112.382 8.382 9 9 0 0117.618 7.984z"></path></svg>
+                <div class="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <!-- Logo SVG -->
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
                 </div>
-                <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Fintech RAG Assistant</h1>
+                <h1 class="text-2xl font-bold text-gray-900 dark:text-white">FinSolve RBAC Chatbot</h1>
                 <p class="text-gray-600 dark:text-gray-400 mt-2">Role-Based Access Control System</p>
+                <p class="text-sm text-primary font-medium mt-1">by Peter Pandey(PAPNP)</p>
             </div>
             
+            <!-- Login Form -->
             <form id="loginForm" class="space-y-6">
+                <!-- User Selection -->
                 <div>
-                    <label for="username" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Username</label>
-                    <select id="username" name="username" class="w-full px-4 py-3 text-base border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 bg-white dark:bg-gray-700 dark:text-white">
-                        <option value="Peter">Peter (Engineering)</option>
-                        <option value="Tony">Tony (Engineering)</option>
-                        <option value="Bruce">Bruce (Marketing)</option>
-                        <option value="Sam">Sam (Finance)</option>
-                        <option value="Sid">Sid (Marketing)</option>
-                        <option value="Natasha">Natasha (HR)</option>
-                        <option value="Alex">Alex (C-Level)</option>
-                        <option value="John">John (Employee)</option>
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Select User to Access Chatbot</label>
+                    <select id="username" class="w-full px-4 py-3 text-base border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-white dark:bg-gray-700 dark:text-white">
+                        <option value="">Choose a demo user...</option>
+                        <!-- Demo Users -->
+                        <option value="Peter">Peter Pandey (Engineering Lead) 🔧</option>
+                        <option value="Tony">Tony Stark (Senior Engineer) ⚙️</option>
+                        <option value="Bruce">Bruce Banner (Marketing Director) 📈</option>
+                        <option value="Sam">Sam Wilson (Finance Manager) 💰</option>
+                        <option value="Sid">Sid Ahmed (Marketing Specialist) 📊</option>
+                        <option value="Natasha">Natasha Romanoff (HR Director) 👥</option>
+                        <option value="Alex">Alex Chen (CEO - C-Level) 👑</option>
+                        <option value="John">John Doe (General Employee) 👤</option>
                     </select>
                 </div>
-                 <div>
-                    <label for="password" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Password</label>
-                    <input type="password" id="password" name="password" class="w-full px-4 py-3 text-base border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 bg-white dark:bg-gray-700 dark:text-white" placeholder="Enter password">
+                
+                <!-- Password Field (Hidden initially) -->
+                <div id="passwordField" class="hidden">
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Password</label>
+                    <input type="password" id="password" class="w-full px-4 py-3 text-base border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-white dark:bg-gray-700 dark:text-white" placeholder="Auto-filled for demo">
                 </div>
                 
-                <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center">
-                    Login & Access Dashboard
+                <!-- Login Error Message -->
+                <div id="loginError" class="text-red-500 text-sm hidden"></div>
+                
+                <!-- Submit Button -->
+                <button type="submit" class="w-full bg-primary hover:bg-primaryDark text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path>
+                    </svg>
+                    Access RAG Chatbot
                 </button>
-                <p id="loginError" class="text-red-500 text-sm mt-2 text-center"></p>
             </form>
+            
+            <!-- Quick Demo Info -->
+            <div class="mt-6 p-4 bg-primary/5 dark:bg-primary/10 rounded-lg border border-primary/20">
+                <div class="flex items-center mb-2">
+                    <svg class="w-4 h-4 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-sm font-medium text-primary">Quick Demo Access</span>
+                </div>
+                <p class="text-xs text-gray-600 dark:text-gray-400">
+                    Simply select any user above and you'll be automatically logged in to explore the chatbot with that role's permissions!
+                </p>
+            </div>
         </div>
     </div>
-
-    <!-- Main Dashboard (Initially Hidden) -->
-    <div id="dashboard" class="hidden">
+    
+    <!-- ========================= Main Dashboard (Hidden initially) ========================= -->
+    <div id="dashboard" class="hidden min-h-screen bg-gray-50 dark:bg-gray-900">
         <!-- Header -->
         <header class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-10">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
+                    <!-- Logo & Title -->
                     <div class="flex items-center">
-                        <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center mr-3 flex-shrink-0">
-                             <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A9 9 0 112.382 8.382 9 9 0 0117.618 7.984z"></path></svg>
+                        <div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center mr-3">
+                            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
                         </div>
-                        <h1 class="text-xl font-semibold text-gray-800 dark:text-white">RAG Assistant</h1>
+                        <div>
+                            <h1 class="text-xl font-semibold">FinSolve</h1>
+                            <p class="text-xs text-gray-500 dark:text-gray-400">Role-Based Access Control</p>
+                        </div>
                     </div>
+                    
+                    <!-- User Info & Logout -->
                     <div class="flex items-center space-x-4">
-                        <span id="userInfo" class="text-sm text-gray-600 dark:text-gray-400"></span>
-                        <button id="logoutBtn" class="text-sm font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300">
-                            Logout
+                        <div class="text-right">
+                            <div class="flex items-center">
+                                <div id="statusIndicator" class="w-2 h-2 bg-green-500 rounded-full mr-2 status-indicator"></div>
+                                <span id="userInfo" class="text-sm font-medium text-gray-900 dark:text-white"></span>
+                            </div>
+                            <div id="roleInfo" class="text-xs text-gray-500 dark:text-gray-400"></div>
+                        </div>
+                        <button id="logoutBtn" class="text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 px-3 py-1 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                            <svg class="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+                            </svg>
+                            Switch User
                         </button>
                     </div>
                 </div>
             </div>
         </header>
-
-        <!-- Main Content -->
-        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                
+        
+        <!-- Main Content Area -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
                 <!-- Left Sidebar -->
-                <aside class="lg:col-span-1 space-y-6">
+                <div class="lg:col-span-1 space-y-6">
+                    <!-- Access Permissions Card -->
                     <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-                        <h2 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Access Permissions</h2>
+                        <h2 class="text-lg font-semibold mb-4 flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                            </svg>
+                            Access Permissions
+                        </h2>
                         <div id="permissions" class="space-y-2"></div>
                     </div>
-                     <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-                        <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Quick Queries</h3>
+                    
+                    <!-- Quick Queries Card -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                            Quick Queries
+                        </h3>
                         <div id="quickQueries" class="space-y-2"></div>
                     </div>
-                </aside>
-
+                    
+                    <!-- Available Documents -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
+                        <h4 class="text-sm font-semibold mb-3 flex items-center">
+                            <svg class="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                            Available Documents
+                        </h4>
+                        <div id="availableFiles" class="text-xs text-gray-600 dark:text-gray-400 space-y-1"></div>
+                    </div>
+                </div>
+                
                 <!-- Main Chat Area -->
-                <div class="lg:col-span-2">
-                    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 flex flex-col h-[75vh]">
-                        <div class="border-b border-gray-200 dark:border-gray-700 p-4">
-                            <h2 class="text-xl font-semibold text-gray-900 dark:text-white">Role-Specific Insights</h2>
-                            <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Ask questions relevant to your department.</p>
+                <div class="lg:col-span-3">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700">
+                        <!-- Chat Header -->
+                        <div class="border-b border-gray-200 dark:border-gray-700 p-6">
+                            <div class="flex items-center justify-between">
+                                <!-- Title & Status -->
+                                <div>
+                                    <h2 class="text-xl font-semibold flex items-center">
+                                        <svg class="w-6 h-6 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                        </svg>
+                                        RAG-Powered Chatbot
+                                    </h2>
+                                    <p class="text-gray-600 dark:text-gray-400 mt-1">Ask questions and receive context-rich responses with source references</p>
+                                </div>
+                                <div>
+                                    <!-- Connection Status -->
+                                    <div class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-xs font-medium">
+                                        Connected
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div id="chatContainer" class="flex-1 overflow-y-auto p-6 space-y-6">
-                            <!-- Messages will be injected here -->
+                        
+                        <!-- Chat Messages Container -->
+                        <div id="chatContainer" class="h-96 overflow-y-auto p-6 space-y-4">
+                            <!-- Welcome message placeholder -->
+                            <div class="text-center text-gray-500 dark:text-gray-400">
+                                <div class="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-full mb-4">
+                                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-4l-4 4z"></path>
+                                    </svg>
+                                </div>
+                                <p>Welcome! Ask me anything within your access permissions and I'll provide detailed insights with source references.</p>
+                            </div>
                         </div>
-
-                        <div class="border-t border-gray-200 dark:border-gray-700 p-4 bg-white dark:bg-gray-800">
-                            <form id="chatForm" class="flex items-center space-x-4">
-                                <input type="text" id="queryInput" placeholder="Ask about your department's data..." class="flex-1 px-4 py-2 text-base border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 bg-gray-50 dark:bg-gray-700 dark:text-white" autocomplete="off">
-                                <button type="submit" id="sendBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-lg transition-colors duration-200 font-medium flex items-center">
-                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
-                                </button>
+                        
+                        <!-- Chat Input Area -->
+                        <div class="border-t border-gray-200 dark:border-gray-700 p-6">
+                            <form id="chatForm" class="space-y-4">
+                                <!-- Query Input & Send Button -->
+                                <div class="flex space-x-4">
+                                    <input type="text" id="queryInput" placeholder="Ask about your department's data..." class="flex-1 px-4 py-3 text-base border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-white dark:bg-gray-700 dark:text-white" />
+                                    <button type="submit" id="sendBtn" class="bg-primary hover:bg-primaryDark text-white px-6 py-3 rounded-lg transition-colors duration-200 font-medium flex items-center" >
+                                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                                        </svg>
+                                        Send
+                                    </button>
+                                </div>
+                                
+                                <!-- Response Options -->
+                                <div class="flex items-center space-x-4 text-sm text-gray-500 dark:text-gray-400">
+                                    <label class="flex items-center">
+                                        <input type="checkbox" id="detailedResponse" class="mr-2 rounded border-gray-300 text-primary focus:ring-primary" />
+                                        Detailed response with sources
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" id="includeSummary" class="mr-2 rounded border-gray-300 text-primary focus:ring-primary" checked />
+                                        Include document summary
+                                    </label>
+                                </div>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
     </div>
+    
+    <!-- ========================= Application JavaScript ========================= -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // ======== API CONFIGURATION ========
+            const API_CONFIG = {
+                BASE_URL: window.location.origin, // Use current origin
+                CHAT_ENDPOINT: '/api/chat',
+                LOGIN_ENDPOINT: '/api/login'
+            };
+            
+            // ======== DEMO USER PASSWORDS ========
+            const DEMO_PASSWORDS = {
+                'Peter': 'pete123',
+                'Tony': 'password123',
+                'Bruce': 'securepass',
+                'Sam': 'financepass',
+                'Sid': 'sidpass123',
+                'Natasha': 'hrpass123',
+                'Alex': 'ceopass',
+                'John': 'employeepass'
+            };
+            
+            // ======== DOM ELEMENTS ========
+            const loginScreen = document.getElementById('loginScreen');
+            const dashboard = document.getElementById('dashboard');
+            const loginForm = document.getElementById('loginForm');
+            const username = document.getElementById('username');
+            const passwordField = document.getElementById('passwordField');
+            const password = document.getElementById('password');
+            const loginError = document.getElementById('loginError');
+            const chatForm = document.getElementById('chatForm');
+            const queryInput = document.getElementById('queryInput');
+            const chatContainer = document.getElementById('chatContainer');
+            const userInfo = document.getElementById('userInfo');
+            const roleInfo = document.getElementById('roleInfo');
+            const logoutBtn = document.getElementById('logoutBtn');
+            const permissionsContainer = document.getElementById('permissions');
+            const quickQueriesContainer = document.getElementById('quickQueries');
+            const availableFiles = document.getElementById('availableFiles');
+            const sendBtn = document.getElementById('sendBtn');
+            
+            // ======== STATE VARIABLES ========
+            let currentUser = null;
+            let currentToken = null;
+            let chatHistory = [];
+            
+            // ======== ROLE CONFIGURATION ========
+            const ROLE_CONFIG = {
+                'engineering': {
+                    icon: '⚙️',
+                    permissions: ['Technical Architecture', 'Development Processes', 'Operational Guidelines', 'System Documentation'],
+                    quickQueries: [
+                        "What technologies are used in the data layer and their roles?",
+                        "How does FinSolve ensure high availability for critical services?",
+                        "What data protection mechanisms are used for PII?",
+                        "What is the commit message convention used by engineers?",
+                        "How does FinSolve manage Kubernetes configurations?"
+                    ],
+                    files: ['engineering_master.pdf', 'system_architecture.md', 'dev_guidelines.md', 'operational_guide.pdf']
+                },
+                'marketing': {
+                    icon: '📈',
+                    permissions: ['Campaign Performance', 'Customer Feedback', 'Sales Metrics', 'Market Analysis'],
+                    quickQueries: [
+                        "What was the overall ROI for marketing campaigns in 2024 across all quarters?",
+                        "What led to the slower-than-expected growth in Colombia during Q3 2024?",
+                        "What was the impact of loyalty programs on customer retention across 2024?",
+                        "How did spending on traditional media differ from digital advertising across 2024?",
+                        "How can marketing efforts be improved to enhance ROI in future campaigns?"
+                    ],
+                    files: ['q4_campaign_report.pdf', 'customer_feedback_2024.csv', 'sales_metrics.xlsx', 'market_analysis.pdf']
+                },
+                'finance': {
+                    icon: '💰',
+                    permissions: ['Financial Reports', 'Budget Analysis', 'Expense Tracking', 'Revenue Forecasting'],
+                    quickQueries: [
+                        "How did revenue growth progress across each quarter of 2024?",
+                        "How did net income change year-over-year in 2024?",
+                        "How does the company’s operating expense to revenue ratio compare to industry standards?",
+                        "How did increased software subscription costs affect overall profitability?",
+                        "What strategies were implemented to mitigate rising vendor costs?"
+                    ],
+                    files: ['q4_financial_report.pdf', 'budget_analysis.xlsx', 'expense_breakdown.csv', 'revenue_forecast.pdf']
+                },
+                'hr': {
+                    icon: '👥',
+                    permissions: ['Employee Records', 'Performance Reviews', 'Payroll Data', 'HR Policies'],
+                    quickQueries: [
+                        "How many employees are currently in the company?",
+                        "Can you give me a breakdown of employee distribution by department?",
+                        "What’s the attrition rate across different departments?",
+                        "Are single employees more likely to leave than married ones?",
+                        "Which job roles have the highest job satisfaction?"
+                    ],
+                    files: ['employee_handbook.pdf', 'attendance_records.csv', 'performance_reviews.xlsx', 'hr_policies.md']
+                },
+                'c-level': {
+                    icon: '👑',
+                    permissions: ['All Company Data', 'Executive Reports', 'Strategic Planning', 'Board Materials'],
+                    quickQueries: [
+                        "What is the resignation process?",
+                        "How do I raise payroll discrepancies?",
+                        "What compliance frameworks does FinSolve adhere to?",
+                        "What AI/ML capabilities are planned for the platform?",
+                        "How did increased software subscription costs affect overall profitability?"
+                    ],
+                    files: ['All departmental files', 'executive_dashboard.pdf', 'strategic_plan.pdf', 'board_materials.pptx']
+                },
+                'employee': {
+                    icon: '👤',
+                    permissions: ['Company Policies', 'General Information', 'Events & News', 'Employee Benefits'],
+                    quickQueries: [
+                        "What types of leave am I entitled to?",
+                        "What are the standard working hours?",
+                        "What is the company’s stance on workplace harassment?",
+                        "What insurance and wellness programs are available?",
+                        "What training programs are available?"
+                    ],
+                    files: ['company_policies.pdf', 'employee_benefits.pdf', 'events_calendar.ics', 'code_of_conduct.md']
+                }
+            };
+            
+            // ======== UTILITY FUNCTIONS ========
+            function showNotification(message, type = 'info') {
+                const notification = document.createElement('div');
+                notification.className = `fixed top-4 right-4 p-4 rounded-lg shadow-lg z-50 max-w-sm transform translate-x-full transition-transform duration-300`;
+                
+                const bgColor = {
+                    success: 'bg-green-500',
+                    error: 'bg-red-500',
+                    warning: 'bg-yellow-500',
+                    info: 'bg-blue-500'
+                }[type] || 'bg-blue-500';
+                
+                notification.className += ` ${bgColor} text-white`;
+                notification.innerHTML = `
+                    <div class="flex items-center justify-between">
+                        <span>${message}</span>
+                        <button class="ml-4 text-lg" onclick="this.parentElement.parentElement.remove()">×</button>
+                    </div>
+                `;
+                
+                document.body.appendChild(notification);
+                setTimeout(() => notification.style.transform = 'translateX(0)', 100);
+                setTimeout(() => notification.remove(), 3000);
+            }
+            
+            function sanitizeInput(input) {
+                const div = document.createElement('div');
+                div.textContent = input;
+                return div.innerHTML;
+            }
+            
+            function showError(message) {
+                loginError.textContent = message;
+                loginError.classList.remove('hidden');
+            }
+            
+            function hideError() {
+                loginError.classList.add('hidden');
+                loginError.textContent = '';
+            }
+            
+            // ======== API COMMUNICATION ========
+            async function authenticateUser(username, password) {
+                try {
+                    const response = await fetch(API_CONFIG.LOGIN_ENDPOINT, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ username, password })
+                    });
+                    
+                    if (!response.ok) {
+                        const errorData = await response.json();
+                        throw new Error(errorData.detail || 'Login failed');
+                    }
+                    
+                    return await response.json();
+                } catch (error) {
+                    console.error('Authentication error:', error);
+                    throw new Error('Authentication failed: ' + error.message);
+                }
+            }
+            
+            async function getRAGResponse(message) {
+                showTypingIndicator();
+                sendBtn.disabled = true;
+                sendBtn.innerHTML = '<span class="loading-spinner mr-2"></span>Processing...';
+                
+                try {
+                    const response = await fetch("/api/chat", {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${currentToken}`
+                        },
+                        body: JSON.stringify({ message })
+                    });
+                    
+                    if (!response.ok) {
+                        const errorData = await response.json();
+                        throw new Error(errorData.detail || `API error: ${response.status}`);
+                    }
+                    
+                    const data = await response.json();
+                    
+                    // Ensure sources array exists even if empty
+                    if (!data.sources) {
+                        data.sources = [];
+                    }
+                    
+                    return data;
+                } catch (error) {
+                    console.error('API request failed:', error);
+                    return {
+                        response: `Error: ${error.message}`,
+                        sources: []
+                    };
+                } finally {
+                    removeTypingIndicator();
+                    sendBtn.disabled = false;
+                    sendBtn.innerHTML = `
+                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                        </svg> Send
+                    `;
+                }
+            }
+            
+            // ======== UI MANAGEMENT FUNCTIONS ========
+            function showLogin() {
+                dashboard.classList.add('hidden');
+                loginScreen.classList.remove('hidden');
+                currentUser = null;
+                currentToken = null;
+                clearChat();
+            }
+            
+            function showDashboard(userData) {
+                currentUser = userData;
+                currentToken = userData.token;
+                loginScreen.classList.add('hidden');
+                dashboard.classList.remove('hidden');
+                updateSidebar();
+                addWelcomeMessage();
+            }
+            
+            function updateSidebar() {
+                if (!currentUser || !ROLE_CONFIG[currentUser.role]) return;
+                
+                const config = ROLE_CONFIG[currentUser.role];
+                
+                // Update user info
+                userInfo.textContent = currentUser.username;
+                roleInfo.textContent = `${currentUser.title} (${currentUser.role})`;
+                
+                // Update permissions
+                permissionsContainer.innerHTML = config.permissions.map(permission => 
+                    `<span class="permission-tag inline-block text-xs font-medium px-2 py-1 rounded-full"> 
+                        ${config.icon} ${permission} 
+                    </span>`
+                ).join('');
+                
+                // Update quick queries
+                quickQueriesContainer.innerHTML = config.quickQueries.map(query => 
+                    `<button class="quick-query-btn w-full text-left p-3 text-sm text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition-all duration-200" data-query="${sanitizeInput(query)}"> 
+                        ${query} 
+                    </button>`
+                ).join('');
+                
+                // Update available files
+                availableFiles.innerHTML = config.files.map(file => 
+                    `<div class="text-xs py-1"> 
+                        <span class="text-primary">📄</span> ${file} 
+                    </div>`
+                ).join('');
+            }
+            
+            function addWelcomeMessage() {
+                const config = ROLE_CONFIG[currentUser.role];
+                const welcomeMsg = `Welcome back, **${currentUser.username}**! 🎉
+                
+As a **${currentUser.title}**, you have access to:
+${config.permissions.map(p => `• ${p}`).join('\n')}
 
-    <script src="/static/script.js"></script>
+I'm your RAG-powered assistant with access to **${config.files.length} documents** in your scope.
+
+💡 **Quick tip**: Use the suggested queries on the left, or ask me anything about your department's data!
+
+🔒 **Security**: All responses are tailored to your access level and include source references.`;
+                
+                addMessage('bot', welcomeMsg);
+            }
+            
+            // ======== MESSAGE HANDLING ========
+            function addMessage(sender, text, sources = []) {
+                const messageWrapper = document.createElement('div');
+                messageWrapper.classList.add('message-wrapper', 'fade-in');
+                
+                //const timestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                
+                if (sender === 'user') {
+                    messageWrapper.innerHTML = `
+                        <div class="flex justify-end w-full">
+                            <div class="message-bubble user max-w-lg">
+                                <p class="mb-2">${sanitizeInput(text)}</p>
+                                
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center font-bold text-sm text-white flex-shrink-0 ml-3">
+                                ${currentUser.username.charAt(0).toUpperCase()}
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    const parsedText = marked.parse(text);
+                    
+                    let sourcesHtml = '';
+                    if (sources.length > 0) {
+                        sourcesHtml = `
+                            <div class="mt-4 space-y-2">
+                                <div class="text-sm font-semibold text-gray-700 dark:text-gray-300">📚 Sources:</div>
+                                ${sources.map(source => `
+                                    <div class="source-ref">
+                                        <div class="font-medium">${source.filename}</div>
+                                        <div class="text-sm">${source.summary}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        `;
+                    }
+                    
+                    messageWrapper.innerHTML = `
+                        <div class="flex w-full">
+                            <div class="w-8 h-8 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm flex-shrink-0 mr-3">
+                                AI
+                            </div>
+                            <div class="message-bubble bot flex-1">
+                                <div class="prose dark:prose-invert prose-sm max-w-none">
+                                    ${parsedText}
+                                </div>
+                                ${sourcesHtml}
+                                
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                chatContainer.appendChild(messageWrapper);
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+                chatHistory.push({ sender, text });
+            }
+            
+            function showTypingIndicator() {
+                const typingDiv = document.createElement('div');
+                typingDiv.id = 'typingIndicator';
+                typingDiv.innerHTML = `
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">AI</div>
+                        <div class="bg-white dark:bg-gray-700 p-3 rounded-lg flex items-center space-x-1">
+                            <span class="typing-indicator"></span>
+                            <span class="typing-indicator"></span>
+                            <span class="typing-indicator"></span>
+                            <span class="ml-2 text-sm text-gray-500">Thinking...</span>
+                        </div>
+                    </div>
+                `;
+                chatContainer.appendChild(typingDiv);
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            }
+            
+            function removeTypingIndicator() {
+                const indicator = document.getElementById('typingIndicator');
+                if (indicator) indicator.remove();
+            }
+            
+            function clearChat() {
+                chatContainer.innerHTML = `
+                    <div class="text-center text-gray-500 dark:text-gray-400">
+                        <div class="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-full mb-4">
+                            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-4l-4 4z"></path>
+                            </svg>
+                        </div>
+                        <p>Welcome! Ask me anything within your access permissions and I'll provide detailed insights with source references.</p>
+                    </div>
+                `;
+                chatHistory = [];
+            }
+            
+            // ======== EVENT LISTENERS ========
+            
+            // Auto-login when user is selected from dropdown
+            username.addEventListener('change', async function(e) {
+                const selectedUser = e.target.value;
+                hideError();
+                
+                if (selectedUser) {
+                    // Show password field
+                    passwordField.classList.remove('hidden');
+                    
+                    // If it's a demo user, auto-fill and login
+                    if (DEMO_PASSWORDS[selectedUser]) {
+                        password.value = DEMO_PASSWORDS[selectedUser];
+                        
+                        // Show loading state
+                        const loginBtn = loginForm.querySelector('button[type="submit"]');
+                        const originalText = loginBtn.innerHTML;
+                        loginBtn.disabled = true;
+                        loginBtn.innerHTML = '<span class="loading-spinner mr-2"></span>Auto-logging in...';
+                        
+                        try {
+                            // Auto-login with demo credentials
+                            const response = await authenticateUser(selectedUser, DEMO_PASSWORDS[selectedUser]);
+                            showNotification(`Welcome ${selectedUser}! 🎉`, 'success');
+                            
+                            // Show dashboard with user data
+                            showDashboard({
+                                token: response.access_token,
+                                username: response.username,
+                                role: response.role,
+                                title: response.title,
+                                department: response.department
+                            });
+                        } catch (error) {
+                            showError('Auto-login failed. Please try again.');
+                        } finally {
+                            loginBtn.disabled = false;
+                            loginBtn.innerHTML = originalText;
+                        }
+                    } else {
+                        // Focus password field for custom users
+                        password.focus();
+                    }
+                } else {
+                    passwordField.classList.add('hidden');
+                    password.value = '';
+                }
+            });
+            
+            // Manual login form submission
+            loginForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const usernameValue = username.value;
+                const passwordValue = password.value;
+                
+                if (!usernameValue || !passwordValue) {
+                    showError('Please select a user and enter password.');
+                    return;
+                }
+                
+                const submitBtn = e.target.querySelector('button[type="submit"]');
+                const originalText = submitBtn.innerHTML;
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = '<span class="loading-spinner mr-2"></span>Logging in...';
+                
+                try {
+                    const response = await authenticateUser(usernameValue, passwordValue);
+                    showNotification('Login successful!', 'success');
+                    
+                    // Show dashboard with user data
+                    showDashboard({
+                        token: response.access_token,
+                        username: response.username,
+                        role: response.role,
+                        title: response.title,
+                        department: response.department
+                    });
+                } catch (error) {
+                    showError('Invalid credentials. Please try again.');
+                } finally {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalText;
+                }
+            });
+            
+            // Logout functionality
+            logoutBtn.addEventListener('click', () => {
+                currentToken = null;
+                showNotification('Logged out successfully', 'info');
+                showLogin();
+            });
+            
+            // Chat form submission
+            chatForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const message = queryInput.value.trim();
+                if (!message || !currentUser || !currentToken) return;
+                
+                addMessage('user', message);
+                queryInput.value = '';
+                
+                // Get response from API
+                const ragResponse = await getRAGResponse(message);
+                addMessage('bot', ragResponse.response, ragResponse.sources);
+            });
+            
+            // Quick query buttons
+            quickQueriesContainer.addEventListener('click', (e) => {
+                const btn = e.target.closest('.quick-query-btn');
+                if (btn) {
+                    const query = btn.dataset.query;
+                    queryInput.value = query;
+                    queryInput.focus();
+                }
+            });
+            
+            // ======== INITIALIZATION ========
+            console.log('🚀 RAG Assistant initialized with API integration');
+            showLogin();
+        });
+    </script>
 </body>
 </html>
