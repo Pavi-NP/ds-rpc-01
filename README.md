@@ -82,13 +82,18 @@ venv\Scripts\activate
 **•	Rate Limiting:** Prevents abuse and overload.<br>
 
 ### Future Enhancements<br>
-**•** Support for PDF, TEXT, and DOC files (including the implementation of code to handle these file types — already completed).<br>
-**•** Enable switching between different Large Language Models (LLMs) such as Claude 3 and LLaMA 3.<br>
-**•** Implement enhanced security measures with username and ID verification.<br>
-**•** Develop an admin dashboard for managing roles and documents.<br>
-**•** Add CSV export functionality for structured data.<br>
-**•** Integrate LangChain with an SQL database for advanced querying and structured answer generation.<br>
-**•** Ensure secure password storage by utilizing PBKDF2-HMAC hashing algorithms. <br>
+**•	Multi-File Format Support:**  Extend input compatibility to include PDF, TXT, and DOC files. (Implementation already completed.)<br>
+**•	LLM Switching:**  Enable seamless switching between various large language models (LLMs), including Claude 3 and LLaMA 3.<br>
+**•	Advanced Security:**  Implement robust authentication using username and ID verification to enhance access control.<br>
+**•	Admin Dashboard:**  Develop a centralized dashboard for managing user roles, document access, and system configurations.<br>
+**•	CSV Export:**  Introduce CSV export functionality to allow structured data extraction for reporting and analysis.<br>
+**•	LangChain + SQL Integration:**  Connect LangChain with a relational SQL database to enable advanced querying and structured response generation.<br>
+**•	Secure Password Storage:**  Use PBKDF2-HMAC hashing to ensure secure and compliant password handling.<br>
+**•	Sentiment Analysis:**  Incorporate sentiment analysis to understand user emotions and improve system responsiveness based on feedback.<br>
+**•	Metadata-Based Chunk Ranking:**  Implement metadata grading to prioritize and organize retrieved content more effectively.<br>
+**•	Model Quantization:**  Apply quantization techniques to optimize memory usage and improve system efficiency.<br>
+**•	LoRA Fine-Tuning:**  Support Low-Rank Adaptation (LoRA) for efficient fine-tuning, enabling rapid customization and better performance with smaller datasets.<br>
+
 
 ### License & Acknowledgments <br>
 This project is part of the Codebasics Resume Challenge and was developed for FinSolve Technologies.<br>
